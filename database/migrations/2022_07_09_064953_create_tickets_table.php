@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('ciudad_origen');
             $table->string('ciudad_destino');
-            $table->string('fecha_salida');
+            $table->dateTime('fecha_salida');
             $table->dateTime('fecha_retorno');
             $table->float('precio');
             $table->string('aerolinea');
