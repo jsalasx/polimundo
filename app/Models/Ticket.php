@@ -12,7 +12,6 @@ class Ticket extends Model
     protected $fillable = [
         'ciudad_origen',
         'ciudad_destino',
-        'ciudad_origen',
         'fecha_salida',
         'fecha_retorno',
         'precio',
