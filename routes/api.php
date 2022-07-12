@@ -26,4 +26,4 @@ Route::get ('/test', function () {
 Route::apiResource('tickets', TicketController::class);
 Route::apiResource('clientes', ClienteController::class);
 
-Route::get('/ticketssearch', [TicketController::class, 'searchBy']);
+Route::post('/ticketssearch', [TicketController::class, 'searchBy']);
